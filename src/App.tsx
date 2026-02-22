@@ -23,7 +23,7 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/auth-flow">
       <AuthProvider>
         <Navbar />
         <Routes>
